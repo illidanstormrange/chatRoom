@@ -1,0 +1,13 @@
+logs:
+    - name: root
+      level: info
+      appenders:
+          - type: FileLogAppender
+            file: ~/file/cppfile/firstProject/new/chatroom/build/root.txt
+          - type: StdoutLogAppender
+    - name: system
+      level: info
+      appenders:
+          - type: FileLogAppender
+            file: ~/file/cppfile/firstProject/new/chatroom/build/system.txt
+          - type: StdoutLogAppender
